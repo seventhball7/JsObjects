@@ -1,5 +1,8 @@
 module.exports=pairs=(obj)=>{
-    const listar=Object.entries(obj);
-      return listar;
+   let arr=[];
+   for(let i in obj){
+     arr.push([i, obj[i]]);
+   }
+   return arr;
 }
 
