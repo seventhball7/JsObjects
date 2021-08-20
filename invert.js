@@ -5,7 +5,7 @@ module.exports=invert=(obj)=>{
    let key=anyval[0];
    let keyval=anyval[1];
    obj2[keyval]=key;
- });
+ })
  
    return obj2;
 
