@@ -1,9 +1,13 @@
 module.exports=defaults=(obj, defaultProps={})=>{
-if(obj.hasOwnProperty(defaultProps)){
-    return  undefined;
-  
+for(let i in obj){
+  if(obj[i]=='undefined'){
+    obj[i]=defaultprops[i];
   }
-  else 
-    return   obj;
 }
+<<<<<<< HEAD
  
+=======
+return obj;
+}
+  
+>>>>>>> 4c69f7933b0032f1d81c4f1d17dd4e25214b463e
