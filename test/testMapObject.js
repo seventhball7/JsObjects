@@ -7,8 +7,6 @@ function cback(key,val){
     else if(typeof val=='string'){
         return val+" added string";
     }
-    return val+5;
-    }
    
   }
 
